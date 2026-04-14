@@ -8,14 +8,14 @@ namespace SharpUR.Lab01
     {
         public void Run()
         {
-
+            task002();
         }
 
         private void task002()
         {
             double[] numbers = new double[10];
 
-            for (int i = 0 < 10; i++)
+            for (int i = 0; i < 10; i++)
             {
                 numbers[i] = inputDouble($"Podaj liczbę nr {i + 1}:");
             }
